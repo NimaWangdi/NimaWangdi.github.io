@@ -1,0 +1,39 @@
+img{
+  background: linear-gradient(pink,salmon,darksalmon);
+  filter:saturate(300%) brightness(150%)contrast(100%);
+  transform:rotate(45deg);
+  padding: 50px;
+ margin:50px;
+  height :150px;
+  width:150px;
+  border-radius:20px;
+}
+h1{
+  background: linear-gradient(wheat,azure,saddleBrown);
+}
+h3{
+  background: linear-gradient(90 deg, yellow,lightgreen);
+}
+body{
+background-color:aliceblue;
+text-align: center;
+color: red;
+
+}
+p{background: linear-gradient(90deg, turtoise,teal);
+padding: 50px 10px 50px 10px;
+border: solid 10px teal;
+font-weight:bold;
+font-size:15px;
+text-align: left;
+}
+div{
+ background: linear-gradient(90deg, purple,teal);
+padding: 50px 10px 50px 10px;
+border:  10px teal;
+font-weight:bold;
+font-size:15px;
+text-align: left;
+color: white;
+}
+p1{ text-align: left};
