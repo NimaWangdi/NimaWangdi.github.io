@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Tic-Tac-Toe</title>
+		<link rel="stylesheet" href="style.css">
+	</head
+	<body>   
+    <header>
+      <h1> <a href ="index.html"> Tic Tac Toe</h1>
+      <span>by theLearners Group</span>
+    </header>
+
+    <nav>
+      <button ><a href ="playgame.html">Play Game</button>
+      <button><a href ="howtoplay.html"> Learn How to play </button>	
+      <button> <a href="history.html" > History</button>
+      <button> <a href="aboutus.html" > About us </a></button>
+    </nav>
+
+    <section>
+      <h3>Let The Game Begin...</h3>
+    </section>
+
+		
+	<div>
+		<h4>Election 2020</h4>
+		<h2><p id="ElectionCampaign">It's a Election Day. Caste your Vote</p></h2>
+		<button id="a1" class="myVote" onclick="vote('a1')">votes</button>
+		<button id="b1" class="myVote" onclick="vote('b1')">votes</button>
+		<button id="c1" class="myVote" onclick="vote('c1')">votes</button>
+      <br>
+		<button id="a2" class="myVote" onclick="vote('a2')">votes</button>
+		<button id="b2" class="myVote" onclick="vote('b2')">votes</button>
+		<button id="c2" class="myVote" onclick="vote('c2')">votes</button>
+		<br>
+		<button id="a3" class="myVote" onclick="vote('a3')">votes</button>
+		<button id="b3" class="myVote" onclick="vote('b3')">votes</button>
+		<button id="c3" class="myVote" onclick="vote('c3')">votes</button>
+		<br> <br>
+		<button onclick="restartElection()" id="resetButton" disabled><strong><span>Vote Again</span></strong></button>
+	</div>
+		<script src="tictactoe.js"></script>
+	</body>
+</html>
